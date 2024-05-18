@@ -44,21 +44,21 @@ Dự án này là một hệ thống quản lý cửa hàng trực tuyến với
     - Hoặc tải file code zip từ GitHub và giải nén.
 
 2. **Tạo Database trên MySQL**
-    - Mở MySQL và tạo một database mới tên là `xyzdats`:
+    - Mở MySQL và tạo một database mới tên là `website_sells_clothes_and_bags`:
       ```sql
-      CREATE DATABASE xyzdats;
+      CREATE DATABASE website_sells_clothes_and_bags;
       ```
 
 3. **Khởi Tạo Database**
     - Import file `DATA_CONTRUCTOR.sql` để khởi tạo cấu trúc database:
       - Mở công cụ quản lý cơ sở dữ liệu như phpMyAdmin hoặc MySQL Workbench.
-      - Chọn database `xyzdats`.
+      - Chọn database `website_sells_clothes_and_bags`.
       - Import file `DAL/DATA_CONTRUCTOR.sql`.
 
 4. **Push Dữ Liệu Lên Database**
     - Import file `TABLES.sql` để push dữ liệu có sẵn vào database:
       - Mở công cụ quản lý cơ sở dữ liệu như phpMyAdmin hoặc MySQL Workbench.
-      - Chọn database `xyzdats`.
+      - Chọn database `website_sells_clothes_and_bags`.
       - Import file `DAL/TABLES.sql`.
 
 5. **Mở Trình Duyệt**
